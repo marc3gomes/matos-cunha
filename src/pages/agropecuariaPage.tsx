@@ -21,7 +21,7 @@ const AgropecuariaPage: React.FC = () => {
             <div className="flex gap-6 z-50">
               <a href="https://instagram.com">
                 <img
-                  src="/icons/instagram.svg"
+                  src="/icons/instagram_white.svg"
                   alt="Instagram"
                   className="h-6"
                 />

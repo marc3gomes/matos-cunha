@@ -75,15 +75,15 @@ button:focus-visible {
 }
 
 span.swiper-pagination-bullet {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: .8rem;
+  height: .8rem;
   background: #fff;
   border: 0.2rem solid white;
 }
 
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: .8rem;
+  height: .8rem;
   background: #9dce9d;
   border: 0.2rem solid white;
 }

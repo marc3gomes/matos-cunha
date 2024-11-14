@@ -85,10 +85,10 @@ const CustomPage: React.FC<CustomPageProps> = ({
       </Swiper>
 
       {/* Botões de navegação fora do overlay */}
-      <button className="custom-prev bg-white shadow-lg text-green-500 rounded-full absolute bottom-14 md:bottom-1/2 left-6 md:left-24 z-20 h-16 w-16 flex items-center justify-center">
+      <button className="custom-prev bg-white shadow-lg text-green-500 rounded-full absolute top-1/2 left-6 z-30 h-12 w-12 flex items-center justify-center transform -translate-y-1/2">
         <ChevronLeftIcon />
       </button>
-      <button className="custom-next bg-white shadow-lg text-green-500 rounded-full absolute bottom-14 md:bottom-1/2 right-6 md:right-24 z-20 h-16 w-16 flex items-center justify-center">
+      <button className="custom-next bg-white shadow-lg text-green-500 rounded-full absolute top-1/2 right-6 z-30 h-12 w-12 flex items-center justify-center transform -translate-y-1/2">
         <ChevronRightIcon />
       </button>
 
